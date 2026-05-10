@@ -1,0 +1,61 @@
+Mirza Mukarram Haseeb 
+ahmedmukarram6@gmail.com  |  +92 335 4533208  |  linkedin.com/in/mukarram0  |  github.com/MirzaMukarram0  |  Islamabad, Pakistan 
+PROFESSIONAL SUMMARY 
+Software Engineer specializing in web-based AI solutions and full-stack development, with a track record of building and shipping 
+production-ready web applications that integrate LLM pipelines, RAG architectures, and AI agents. Proficient in Python, MERN, 
+Next.js, Flask, and LangChain, with hands-on experience integrating REST APIs, vector databases, and cloud infrastructure into 
+web apps. Holds OCI 2025 Generative AI Professional certification covering enterprise RAG deployment, vector databases, and 
+prompt engineering. Passionate about digital innovation and applying AI-first thinking to real-world challenges and ready to 
+deliver enterprise-ready solutions with measurable impact.  
+EDUCATION 
+Bachelor of Science in Software Engineering — FAST-NUCES, Islamabad                                                                             2022 – 2026 
+Relevant Coursework: Applied AI, Generative AI, Data Structures, Database Systems, Web Engineering, Software Quality Assurance, 
+Software Design & Analysis, Cloud Computing, DevOps.  
+WORK EXPERIENCE 
+Machine Learning Intern — Elevvo Pathways                                                                                                               Jul 2025 – Sep 2025 
+•​ Engineered predictive ML models (Scikit-learn, Python) to automate AI-driven question generation and student scoring 
+pipelines, achieving 92% accuracy; built a Flask + React.js Movie Recommendation System with a REST API backend. 
+•​ Reduced LLM output error rates by 15% through systematic prompt validation and iterative testing cycles, maintaining 
+production reliability across AI pipelines. 
+Full Stack Development Intern — Developers Hub Corporation                                                                            Jun 2025 – Aug 2025 
+•​ Delivered 2 production-ready MERN stack applications within a 6-week sprint, achieving 100% requirement fulfillment; 
+architected Business Nexus, an entrepreneur-investor platform with Socket.io real-time comms, JWT auth, and MongoDB. 
+•​ Translated Figma wireframes into responsive React.js components, collaborating cross-functionally with backend engineers 
+to ensure consistent API contracts and seamless cloud deployment. 
+TECHNICAL PROJECTS 
+GATeR — Graph-Aware Test Repair  |  Python, Next.js, Flask, KuzuDB, LanceDB, LangChain, GraphRAG  [GitHub] 
+•​ Designed a research-driven automated test repair system leveraging knowledge graphs, semantic vector search, and 
+LLM-based RAG pipelines, demonstrating agent framework design and real-world LLM pipeline architecture. 
+•​ Integrated AST parsing, KGCompass relevance scoring, KuzuDB, and LanceDB vector retrieval to generate context-aware 
+fixes, improving test maintenance efficiency across large codebases. 
+Intelligent Research Canvas  |  Next.js 15, TypeScript, Tailwind v4, React Flow, Gemini 2.5 Flash  [GitHub] [Live Link] 
+•​ Architected a multi-agent document intelligence platform deployed on Google Cloud Run; orchestrated 4 specialized LLM 
+agents: Graph Extractor, Insight Analyzer, Context Chat (streaming RAG), and LaTeX Formatter, transforming raw PDFs into 
+structured, queryable knowledge graphs end-to-end. 
+•​ Engineered a full-stack TypeScript/Next.js 16 frontend with React Flow visualization and Zustand state management, 
+integrating Gemini 2.5 Flash for real-time multi-document reasoning with typed nodes (concept | entity | method | finding) 
+and confidence-scored insights. 
+Resilience Coach Agent  |  Python, LangGraph, Gemini API, ChromaDB, Flask, React.js  [GitHub] [Live Link] 
+•​ Built a full-stack stateful AI agent using LangGraph for multi-step reasoning and Gemini API for emotional sentiment 
+analysis; served through a Flask REST API with full React.js web interface. 
+•​ Architected a RAG pipeline with ChromaDB for long-term conversational memory, demonstrating end-to-end conversational 
+agent development aligned with production GenAI system design. 
+AI Voice Agent  |  Python, React.js, Whisper-STT, Coqui-TTS, Gemini LLM  [GitHub] 
+•​ Engineered a full-stack voice-to-voice AI agent: Whisper STT → Gemini LLM reasoning → Coqui TTS output, demonstrating 
+multi-modal LLM integration with a clean Python back-end and React.js frontend. 
+TECHNICAL SKILLS 
+Languages & Frameworks: Python, JavaScript, TypeScript, Next.js, React.js, Node.js, Express.js, Flask, SQL 
+AI / GenAI & LLM Systems: LangChain, LangGraph, RAG Pipelines, Prompt Engineering, AI Agents, LLM Integration, Gemini API, 
+Scikit-learn, PyTorch, NLP 
+
+Intelligent Document Processing: PDF parsing, Multi-agent orchestration, Knowledge Graph extraction, Semantic search, AST 
+Parsing 
+Vector & Databases: ChromaDB, LanceDB, KuzuDB, MongoDB, Supabase, GraphQL, REST APIs 
+DevOps & Cloud: Docker, Kubernetes, GitHub Actions, CI/CD Pipelines, AWS, Google Cloud Run, Git, Socket.io 
+CERTIFICATIONS 
+•​ OCI 2025 Generative AI Professional — Oracle Cloud Infrastructure: Validated expertise in designing and deploying 
+enterprise-grade GenAI applications, covering LLM architecture, RAG pipeline design, vector database integration, and 
+production prompt engineering strategies. 
+•​ Google Machine Learning Crash Course — Google Developer Program: Applied foundation in production ML systems, 
+including neural network design, embedding models, model evaluation pipelines, and deploying scalable ML solutions. 
+•​AWS Cloud Quest: Cloud Practitioner  

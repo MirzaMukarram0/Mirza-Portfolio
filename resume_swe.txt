@@ -1,0 +1,53 @@
+Mirza Mukarram Haseeb 
+ahmedmukarram6@gmail.com  |  +92 335 4533208  |  linkedin.com/in/mukarram0  |  github.com/MirzaMukarram0  |  Islamabad, Pakistan 
+PROFESSIONAL SUMMARY 
+Results-driven Full-Stack Software Engineer with hands-on experience delivering production-ready MERN, Next.js, Flask and TypeScript 
+applications across full development lifecycles. Proven ability to architect secure, scalable systems, from real-time Socket.io platforms to 
+cloud-deployed multi-service applications — with clean, maintainable code and strong API design. Holds OCI 2025 Generative AI 
+Professional certification, enabling seamless integration of AI capabilities into modern web products. 
+EDUCATION 
+Bachelor of Science in Software Engineering — FAST-NUCES, Islamabad                                                                                  2022 – May 2026 
+Relevant Coursework: Data Structures, Database Systems, Web Engineering, Software Quality Assurance, Software Design & Analysis, Software 
+Construction, Cloud Computing, DevOps, Applied AI, Gen AI 
+WORK EXPERIENCE 
+Full Stack Development Intern — Developers Hub Corporation                                                                                          Jun 2025 – Aug 2025 
+•​ Delivered 2 production-ready MERN stack applications within a 6-week sprint with 100% requirement fulfillment and seamless 
+cloud deployment; sole developer on Business Nexus, an entrepreneur-investor platform serving real-time communication via 
+Socket.io, JWT-secured auth flows, and MongoDB for scalable data persistence. 
+•​ Translated Figma wireframes into pixel-accurate, responsive React.js components; coordinated API contracts cross-functionally with 
+backend engineers, reducing integration defects and ensuring consistent UX across device breakpoints. 
+Machine Learning Intern — Elevvo Pathways                                                                                                                             Jul 2025 – Sep 2025 
+•​ Built and deployed a Flask + React.js Movie Recommendation System with a REST API backend serving personalized content; 
+engineered Python-based ML pipelines achieving 92% accuracy on automated scoring tasks. 
+•​ Reduced backend LLM error rates by 15% through systematic API validation, input sanitization, and iterative prompt testing — 
+reinforcing production stability across integrated AI services. 
+TECHNICAL PROJECTS 
+Business Nexus — Entrepreneur-Investor Platform  |  MERN, Socket.io, JWT, MongoDB, REST API  [GitHub] 
+•​ Architected a full-stack MERN networking platform from database schema to deployed frontend; engineered real-time 
+bi-directional messaging with Socket.io, role-based JWT authentication, and a RESTful Express.js API with modular route and 
+middleware structure. 
+•​ Designed a scalable MongoDB schema supporting dynamic user profiles, connection requests, and activity feeds; integrated input 
+validation, error-handling middleware, and environment-based config management for production readiness. 
+CryptShare-E2E — Secure Messaging Platform  |  MERN, Socket.io, Web Crypto API, IndexedDB  [GitHub] 
+•​ Engineered a security-focused MERN web application implementing Zero-Knowledge Architecture — all cryptographic operations 
+(AES-GCM encryption, ECDH key exchange) execute entirely in-browser via the Web Crypto API, ensuring the server never handles 
+plaintext data. 
+•​ Integrated Socket.io for real-time encrypted message delivery with IndexedDB for client-side key persistence; implemented 
+forward-secrecy key rotation and structured the codebase around separation of crypto, transport, and storage concerns. 
+Intelligent Research Canvas — AI Research Workspace  |  Next.js 15, TypeScript, Tailwind v4, React Flow, Zustand  [GitHub] 
+•​ Built a production TypeScript/Next.js 16 full-stack application with server-side API routes, React Flow graph visualization, and 
+Zustand global state — deployed on Google Cloud Run with streaming Gemini 2.5 Flash responses for real-time AI interaction. 
+•​ Designed a modular multi-agent architecture (Graph Extractor, Insight Analyzer, Context Chat, LaTeX Formatter) orchestrating 
+structured LLM outputs into typed knowledge graphs; exported compilable .tex documents for seamless academic workflow 
+integration. 
+TECHNICAL SKILLS 
+Languages: JavaScript, TypeScript, Python, SQL, HTML/CSS 
+Frontend: React.js, Next.js 15, Tailwind CSS, Redux, Zustand, React Flow, Responsive Design 
+Backend & APIs: Node.js, Express.js, Flask, REST APIs, Socket.io, JWT, GraphQL 
+Databases: MongoDB, Supabase, ChromaDB, PostgreSQL, IndexedDB 
+DevOps & Cloud: Docker, GitHub Actions, CI/CD, AWS, Google Cloud Run, Git 
+AI Integration: LangChain, LangGraph, Gemini API, RAG Pipelines, LLM APIs, Scikit-learn 
+CERTIFICATIONS 
+•​ OCI 2025 Generative AI Professional — Oracle Cloud Infrastructure 
+•​ AWS Cloud Quest: Cloud Practitioner  — Amazon Web Services 
+•​ Google Machine Learning Crash Course — Google Developer Program 
