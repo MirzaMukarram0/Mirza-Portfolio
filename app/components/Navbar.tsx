@@ -34,30 +34,33 @@ export default function Navbar() {
 
   const scrollTo = (id: string) => {
     const el = document.getElementById(id);
-    if (el) {
-      el.scrollIntoView({ behavior: "smooth" });
-    }
+    if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
     <nav className="navbar" role="navigation" aria-label="Main navigation">
       <div className="navbar__inner">
-        <span className="navbar__left">Portfolio, 2026</span>
+        <span className="navbar__left label-text">Vol. V, No. 1 · Est. 2022</span>
         <div className="navbar__links">
-          {NAV_ITEMS.map(({ label, target }) => (
-            <button
-              key={target}
-              className={`navbar__link ${
-                activeSection === target ? "navbar__link--active" : ""
-              }`}
-              onClick={() => scrollTo(target)}
-              aria-label={`Navigate to ${label} section`}
-            >
-              {label}
-            </button>
+          {NAV_ITEMS.map(({ label, target }, i) => (
+            <>
+              <button
+                key={target}
+                className={`navbar__link ${
+                  activeSection === target ? "navbar__link--active" : ""
+                }`}
+                onClick={() => scrollTo(target)}
+                aria-label={`Navigate to ${label} section`}
+              >
+                {label}
+              </button>
+              {i < NAV_ITEMS.length - 1 && (
+                <span className="navbar__separator" aria-hidden="true">·</span>
+              )}
+            </>
           ))}
         </div>
-        <span className="navbar__right">Islamabad</span>
+        <span className="navbar__right label-text">Islamabad</span>
       </div>
     </nav>
   );

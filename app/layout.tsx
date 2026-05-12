@@ -1,20 +1,28 @@
 import type { Metadata } from "next";
-import { Bodoni_Moda, Lora } from "next/font/google";
+import { Playfair_Display, IM_Fell_English, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 
-const bodoni = Bodoni_Moda({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["400", "700", "900"],
   style: ["normal", "italic"],
-  variable: "--font-playfair",
+  variable: "--font-display",
   display: "swap",
 });
 
-const lora = Lora({
+const imFell = IM_Fell_English({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400"],
   style: ["normal", "italic"],
-  variable: "--font-lora",
+  variable: "--font-body",
+  display: "swap",
+});
+
+const libreBaskerville = Libre_Baskerville({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-label",
   display: "swap",
 });
 
@@ -49,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${bodoni.variable} ${lora.variable}`}>
+    <html lang="en" className={`${playfair.variable} ${imFell.variable} ${libreBaskerville.variable}`}>
       <body suppressHydrationWarning>{children}</body>
     </html>
   );

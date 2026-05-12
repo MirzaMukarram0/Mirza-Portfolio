@@ -31,14 +31,19 @@ export default function HeroSection() {
           </div>
         </div>
         <div>
-          <Image
-            src="/Smiling_Photo.png"
-            alt="Mirza Mukarram — Software Engineer"
-            width={450}
-            height={560}
-            className="hero-photo"
-            priority
-          />
+          <figure>
+            <div className="newspaper-photo-wrap">
+              <Image
+                src="/Smiling_Photo.png"
+                alt="Mirza Mukarram — Software Engineer"
+                width={450}
+                height={560}
+                className="hero-photo newspaper-photo"
+                priority
+              />
+            </div>
+            <figcaption>Fig. 1 — Mirza Mukarram, Software Engineer, Islamabad</figcaption>
+          </figure>
         </div>
       </div>
     </section>

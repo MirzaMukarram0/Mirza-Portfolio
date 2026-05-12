@@ -8,6 +8,7 @@ import SkillsSection from "./components/SkillsSection";
 import CertificationsSection from "./components/CertificationsSection";
 import Footer from "./components/Footer";
 import FadeInSection from "./components/FadeInSection";
+import RunningFooter from "./components/RunningFooter";
 
 export default function Home() {
   return (
@@ -22,27 +23,39 @@ export default function Home() {
           <HeroSection />
         </FadeInSection>
 
+        <div className="ornament newspaper-container">— ✦ —</div>
+
         <FadeInSection delay={100}>
           <EducationSection />
         </FadeInSection>
+
+        <div className="ornament newspaper-container">— ✦ —</div>
 
         <FadeInSection delay={100}>
           <ExperienceSection />
         </FadeInSection>
 
+        <div className="ornament newspaper-container">— ✦ —</div>
+
         <FadeInSection delay={100}>
           <ProjectsSection />
         </FadeInSection>
 
+        <div className="ornament newspaper-container">— ✦ —</div>
+
         <FadeInSection delay={100}>
           <SkillsSection />
         </FadeInSection>
+
+        <div className="ornament newspaper-container">— ✦ —</div>
 
         <FadeInSection delay={100}>
           <CertificationsSection />
         </FadeInSection>
       </main>
       <Footer />
+      <RunningFooter />
     </>
   );
 }
+
