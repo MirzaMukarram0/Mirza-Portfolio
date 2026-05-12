@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 
 const NAV_ITEMS = [
   { label: "Experience", target: "experience" },
@@ -43,9 +43,8 @@ export default function Navbar() {
         <span className="navbar__left label-text">Vol. V, No. 1 · Est. 2022</span>
         <div className="navbar__links">
           {NAV_ITEMS.map(({ label, target }, i) => (
-            <>
+            <Fragment key={target}>
               <button
-                key={target}
                 className={`navbar__link ${
                   activeSection === target ? "navbar__link--active" : ""
                 }`}
@@ -57,7 +56,7 @@ export default function Navbar() {
               {i < NAV_ITEMS.length - 1 && (
                 <span className="navbar__separator" aria-hidden="true">·</span>
               )}
-            </>
+            </Fragment>
           ))}
         </div>
         <span className="navbar__right label-text">Islamabad</span>

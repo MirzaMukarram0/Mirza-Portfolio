@@ -16,10 +16,10 @@
   --rule:           rgba(26, 20, 16, 0.30);
   --rule-solid:     #1a1410;
 
-  /* Font families */
-  --font-display: var(--font-display, 'Playfair Display', Georgia, serif);
-  --font-body:    var(--font-body, 'IM Fell English', 'Cormorant Garamond', Georgia, serif);
-  --font-label:   var(--font-label, 'Libre Baskerville', serif);
+  /* Font families — injected by next/font via CSS variables on <html> */
+  --font-display-fallback: 'Playfair Display', Georgia, serif;
+  --font-body-fallback:    'IM Fell English', 'Cormorant Garamond', Georgia, serif;
+  --font-label-fallback:   'Libre Baskerville', serif;
 
   /* Spacing Scale */
   --space-xs: 0.25rem;
@@ -70,7 +70,7 @@ html {
 
 /* --- Body with layered paper background --- */
 body {
-  font-family: var(--font-body);
+  font-family: var(--font-body, var(--font-body-fallback));
   font-size: var(--text-base);
   line-height: 1.72;
   color: var(--ink);
@@ -169,7 +169,7 @@ hr.rule-double {
 
 /* --- Typography --- */
 .masthead-title {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: var(--text-masthead);
   font-weight: 900;
   letter-spacing: -0.02em;
@@ -181,7 +181,7 @@ hr.rule-double {
 }
 
 .section-heading {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: var(--text-xl);
   font-weight: 700;
   letter-spacing: 0.15em;
@@ -193,7 +193,7 @@ hr.rule-double {
 }
 
 .hook-text {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: var(--text-2xl);
   font-weight: 700;
   font-style: italic;
@@ -203,7 +203,7 @@ hr.rule-double {
 }
 
 .date-label {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-size: var(--text-xs);
   font-weight: 700;
   letter-spacing: 0.25em;
@@ -213,7 +213,7 @@ hr.rule-double {
 }
 
 .body-text {
-  font-family: var(--font-body);
+  font-family: var(--font-body, var(--font-body-fallback));
   font-size: var(--text-base);
   line-height: 1.72;
   color: var(--ink-light);
@@ -227,7 +227,7 @@ hr.rule-double {
 
 /* --- Drop Cap --- */
 .drop-cap::first-letter {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: 4.8em;
   font-weight: 900;
   float: left;
@@ -238,7 +238,7 @@ hr.rule-double {
 }
 
 .item-heading {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: var(--text-md);
   font-weight: 700;
   font-style: italic;
@@ -248,7 +248,7 @@ hr.rule-double {
 }
 
 .bold-heading {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: var(--text-base);
   font-weight: 700;
   text-transform: uppercase;
@@ -258,7 +258,7 @@ hr.rule-double {
 
 /* Label / dateline */
 .label-text {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-size: var(--text-xs);
   letter-spacing: 0.25em;
   text-transform: uppercase;
@@ -269,7 +269,7 @@ hr.rule-double {
 .ornament {
   text-align: center;
   color: var(--ink-muted);
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: 1rem;
   opacity: 0.5;
   padding: var(--space-md) 0;
@@ -367,7 +367,7 @@ hr.rule-double {
 .navbar__left,
 .navbar__right {
   flex: 1;
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-size: var(--text-xs);
   font-weight: 400;
   letter-spacing: 0.25em;
@@ -385,7 +385,7 @@ hr.rule-double {
 }
 
 .navbar__link {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-size: var(--text-xs);
   font-weight: 400;
   letter-spacing: 0.22em;
@@ -439,7 +439,7 @@ hr.rule-double {
 }
 
 figcaption {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-style: italic;
   font-size: var(--text-xs);
   letter-spacing: 0.05em;
@@ -469,7 +469,7 @@ figcaption {
 }
 
 .image-caption {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-style: italic;
   font-size: var(--text-xs);
   text-align: center;
@@ -478,7 +478,7 @@ figcaption {
 }
 
 .project-card__link {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-size: var(--text-xs);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -507,7 +507,7 @@ figcaption {
 }
 
 .experience-entry__header .item-heading {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   text-transform: uppercase;
   font-style: normal;
   font-weight: 900;
@@ -517,7 +517,7 @@ figcaption {
 
 /* --- Classifieds (Skills) --- */
 .classifieds-text {
-  font-family: var(--font-body);
+  font-family: var(--font-body, var(--font-body-fallback));
   font-size: var(--text-sm);
   line-height: 1.5;
   color: var(--ink-light);
@@ -527,7 +527,7 @@ figcaption {
 }
 
 .classifieds-header {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-weight: 700;
   font-size: var(--text-xs);
   text-transform: uppercase;
@@ -545,7 +545,7 @@ figcaption {
 }
 
 .certification-entry__title {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: var(--text-sm);
   font-weight: 900;
   text-transform: uppercase;
@@ -554,7 +554,7 @@ figcaption {
 }
 
 .certification-entry__issuer {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-size: var(--text-xs);
   font-style: italic;
   font-weight: bold;
@@ -602,7 +602,7 @@ figcaption {
 }
 
 .footer__text {
-  font-family: var(--font-label);
+  font-family: var(--font-label, var(--font-label-fallback));
   font-size: var(--text-xs);
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -610,7 +610,7 @@ figcaption {
 }
 
 .footer__edition {
-  font-family: var(--font-display);
+  font-family: var(--font-display, var(--font-display-fallback));
   font-size: var(--text-sm);
   font-style: italic;
   color: var(--ink-muted);
