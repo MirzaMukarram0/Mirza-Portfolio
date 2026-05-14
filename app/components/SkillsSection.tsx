@@ -91,7 +91,7 @@ export default function SkillsSection() {
       <h2 className="section-heading">Technical Skills</h2>
       <div className="multi-column-3">
         {SKILL_CATEGORIES.map((cat, i) => (
-          <p key={i} className="classifieds-text">
+          <p key={i} className="classifieds-text stagger-item" style={{ animationDelay: `${i * 60}ms` }}>
             <span className="classifieds-header">{cat.title}:</span>
             {cat.skills.join(" \u2022 ")}
           </p>

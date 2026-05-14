@@ -26,7 +26,10 @@ export default function FadeInSection({
           observer.unobserve(el);
         }
       },
-      { threshold: 0.15 }
+      { 
+        threshold: 0, 
+        rootMargin: "0px 0px -50px 0px" 
+      }
     );
 
     observer.observe(el);

@@ -32,7 +32,7 @@ export default function HeroSection() {
         </div>
         <div>
           <figure>
-            <div className="newspaper-photo-wrap">
+            <div className="newspaper-photo-wrap hero-photo-reveal">
               <Image
                 src="/Smiling_Photo.png"
                 alt="Mirza Mukarram — Software Engineer"

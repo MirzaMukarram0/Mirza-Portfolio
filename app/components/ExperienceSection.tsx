@@ -4,7 +4,7 @@ export default function ExperienceSection() {
       <h2 className="section-heading">Professional Experience</h2>
 
       {/* Internship 1: Machine Learning */}
-      <article className="experience-entry">
+      <article className="experience-entry stagger-item" style={{ animationDelay: "0ms" }}>
         <div className="experience-entry__header">
           <h3 className="item-heading">
             Machine Learning Intern — Elevvo Pathways
@@ -19,7 +19,7 @@ export default function ExperienceSection() {
       </article>
 
       {/* Internship 2: Full Stack */}
-      <article className="experience-entry">
+      <article className="experience-entry stagger-item" style={{ animationDelay: "60ms" }}>
         <div className="experience-entry__header">
           <h3 className="item-heading">
             Full Stack Development Intern — Developers Hub Corporation

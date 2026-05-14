@@ -14,7 +14,7 @@ const PROJECTS: Project[] = [
     title: "GATeR — Graph-Aware Test Repair",
     tech: "Python, Next.js, Flask, KuzuDB, LanceDB, LangChain, GraphRAG",
     github: "https://github.com/MirzaMukarram0",
-    image: "/projects/gater.png",
+    image: "/projects/gater2.png",
     description: [
       "Designed a research-driven automated test repair system leveraging knowledge graphs, semantic vector search, and LLM-based RAG pipelines, demonstrating agent framework design and real-world LLM pipeline architecture.",
       "Integrated AST parsing, KGCompass relevance scoring, KuzuDB, and LanceDB vector retrieval to generate context-aware fixes, improving test maintenance efficiency across large codebases.",
@@ -79,7 +79,11 @@ export default function ProjectsSection() {
       <h2 className="section-heading">Technical Projects</h2>
 
       {PROJECTS.map((project, i) => (
-        <article className="project-card" key={i}>
+        <article
+          className="project-card stagger-item"
+          key={i}
+          style={{ animationDelay: `${i * 60}ms` }}
+        >
           <div className="grid-50-50">
             <div>
               <Image

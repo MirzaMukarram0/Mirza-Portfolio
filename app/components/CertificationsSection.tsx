@@ -4,7 +4,7 @@ export default function CertificationsSection() {
       <h2 className="section-heading">Certifications</h2>
 
       <div className="multi-column-3">
-        <article className="certification-entry">
+        <article className="certification-entry stagger-item" style={{ animationDelay: "0ms" }}>
         <h3 className="certification-entry__title">
           OCI 2025 Generative AI Professional
         </h3>
@@ -18,7 +18,7 @@ export default function CertificationsSection() {
         </p>
       </article>
 
-      <article className="certification-entry">
+      <article className="certification-entry stagger-item" style={{ animationDelay: "60ms" }}>
         <h3 className="certification-entry__title">
           Google Machine Learning Crash Course
         </h3>
@@ -32,7 +32,7 @@ export default function CertificationsSection() {
         </p>
       </article>
 
-      <article className="certification-entry">
+      <article className="certification-entry stagger-item" style={{ animationDelay: "120ms" }}>
         <h3 className="certification-entry__title">
           AWS Cloud Quest: Cloud Practitioner
         </h3>
@@ -47,3 +47,4 @@ export default function CertificationsSection() {
     </section>
   );
 }
+
